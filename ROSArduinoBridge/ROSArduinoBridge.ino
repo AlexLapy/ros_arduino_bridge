@@ -200,6 +200,7 @@ int runCommand() {
     Serial.print(readEncoder(LEFT));
     Serial.print(" ");
     Serial.println(readEncoder(RIGHT));
+    Serial.print("\n");
     break;
    case RESET_ENCODERS:
     resetEncoders();
